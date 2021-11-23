@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Верстка на Flexbox</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <div class="header__logo">
+          <a href="#"><img src="img/logo.svg" alt="Логотип"></a>
+        </div>
+        <div class="header__catalog">
+          <a href="#">Каталог</a>
+        </div>
+        <h1 class="header__name">Муррр...</h1>
+        <div class="header__basket">
+          <a href="#">Корзина</a>
+        </div>
+        <div class="header__logo">
+          <a href="#"><img src="img/logo.svg" alt="Логотип"></a>
+        </div>
+      </div>
+      <div class="header__border border-wide"></div>
+      <div class="header__bg"></div>
+      <div class="header__border border-narrow"></div>
+      
+    </div>
+  </header>
+  <section class="goods">
+    <div class="container">
+      <h2 class="goods__name">Товары</h2>
+      <div class="goods__border border-wide"></div>
+      <div class="goods__sort">
+        <span class="sort">Сортировка:</span>
+        <a href="" class="sort-item">по рейтингу</a>
+        <a href="" class="sort-item active">По убыванию цены</a>
+        <a href="" class="sort-item">по возрастанию цены</a>
+      </div>
+      <div class="goods__border border-narrow"></div>
+      <div class="goods__wrap">
+        <div class="goods-item">
+          <img src="img/good-1.jpg" alt="Товары">
+          <div class="star-wrap">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+
+          </div> 
+          <div class="info-wrap">
+            <div class="item-name">Beeztees</div>
+            <div class="item-price">8310р</div>
+            <a href="#" class="item-basket"></a>
+            <p class="item-description">Описание товара</p>
+          </div>
+        </div>
+        <div class="goods-item">
+          <img src="img/good-2.jpg" alt="Товары">
+          <div class="star-wrap">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+
+          </div> 
+          <div class="info-wrap">
+            <div class="item-name">Дарэлл</div>
+            <div class="item-price">1380р</div>
+            <a href="#" class="item-basket"></a>
+            <p class="item-description">Описание товара</p>
+          </div>
+        </div>
+        <div class="goods-item">
+          <img src="img/good-3.jpg" alt="Товары">
+          <div class="star-wrap">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+
+          </div> 
+          <div class="info-wrap">
+            <div class="item-name">H. Arekkusu</div>
+            <div class="item-price">761р</div>
+            <a href="#" class="item-basket"></a>
+            <p class="item-description">Описание товара</p>
+          </div>
+        </div>
+        <div class="goods-item">
+          <img src="img/good-4.jpg" alt="Товары">
+          <div class="star-wrap">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star none"></div>
+
+          </div> 
+          <div class="info-wrap">
+            <div class="item-name">Glory Life</div>
+            <div class="item-price">500р</div>
+            <a href="#" class="item-basket"></a>
+            <p class="item-description">Описание товара</p>
+          </div>
+        </div>
+        <div class="goods-item">
+          <img src="img/good-5.jpg" alt="Товары">
+          <div class="star-wrap">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+
+          </div> 
+          <div class="info-wrap">
+            <div class="item-name">Royal Canin</div>
+            <div class="item-price">440р</div>
+            <a href="#" class="item-basket"></a>
+            <p class="item-description">Описание товара</p>
+          </div>
+        </div>
+        <div class="goods-item">
+          <img src="img/good-6.jpg" alt="Товары">
+          <div class="star-wrap">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star none"></div>
+            <div class="star none"></div>
+
+          </div> 
+          <div class="info-wrap">
+            <div class="item-name">Gamma</div>
+            <div class="item-price">250р</div>
+            <a href="#" class="item-basket"></a>
+            <p class="item-description">Описание товара</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="header__border border-wide"></div>
+      <div class="footer__wrap">
+        <div class="header__logo">
+          <a href="#"><img src="img/logo.svg" alt="Логотип"></a>
+        </div>
+        <div class="header__catalog">
+          <a href="#">8-9xx-xxx-xx-xx</a>
+        </div>
+        <h1 class="header__name">Муррр...</h1>
+        <div class="header__basket">
+          <a href="#">О нас</a>
+        </div>
+        <div class="soc">
+          <a href="#"><img src="img/Inst.svg" alt="Инстаграм"></a>
+          <a href="#"><img src="img/Tel.svg" alt="Телеграм"></a>
+        </div>
+      </div>  
+    </div>
+    
+
+  </footer>
+  
+</body>
+</html>
